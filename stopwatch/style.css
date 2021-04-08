@@ -1,0 +1,103 @@
+.container
+{
+	border: 2px solid black;
+	text-align: center;
+	background-color: orange;
+	padding: 20px;
+	width: 40%;
+	margin: 0 auto;
+}
+#one
+{
+	justify-content: space-around;	
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+#two
+
+{
+	display: inline-block;	
+	color: white;
+	border: 2px solid	black;
+	
+
+}
+
+.flexbox-container
+{
+
+	margin: 0;
+
+}
+p{
+	font-weight: bold;
+	font-size: 40px;
+	display: inline-block;
+
+}
+.container-1
+{
+	padding: 20px;
+	justify-content: space-around;
+
+}
+button
+{	transition-duration: 1s;
+	border: 2px solid white;
+	padding: 20px;
+	background-color: orange;
+	color: white;
+	margin: 10px;
+	font-weight: bold;
+	font-size: 24px;
+	opacity: .5;
+}
+
+button:hover
+{
+opacity: 1;
+transition-duration: 1s;
+background-color: green;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 200px;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+
+}
+.grid2
+{
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+}
+
+.mole {
+  background-image: url('mole.jpg');
+  background-size: cover;
+}
